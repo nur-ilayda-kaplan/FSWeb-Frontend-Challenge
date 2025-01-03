@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import github from "../images/github.png";
-import linkedIn from "../images/LinkedIn.png";
-import IMG_5723 from "../images/IMG_5723.png";
+import github from "/images/github.png";
+import linkedIn from "/images/LinkedIn.png";
+import IMG_5723 from "/images/IMG_5723.png";
 import { profileAboutMe } from "../data/InfoData";
 
 const Header = () => {

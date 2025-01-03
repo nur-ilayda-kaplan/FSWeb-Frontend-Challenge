@@ -1,12 +1,12 @@
 import React from "react";
 
 // Görselleri içe aktar
-import JSLogo from "../images/JSLogo.jpg";
-import ReactLogo from "../images/ReactLogo.png";
-import NodeJSLogo from "../images/NodeJSLogo.jpg";
-import ReduxLogo from "../images/ReduxLogo.png";
-import VSCodeLogo from "../images/VSCodeLogo.png";
-import FigmaLogo from "../images/FigmaLogo.jpg";
+import JSLogo from "/images/JSLogo.jpg";
+import ReactLogo from "/images/ReactLogo.png";
+import NodeJSLogo from "/images/NodeJSLogo.jpg";
+import ReduxLogo from "/images/ReduxLogo.png";
+import VSCodeLogo from "/images/VSCodeLogo.png";
+import FigmaLogo from "/images/FigmaLogo.jpg";
 
 const Skills = () => {
   const skills = [
