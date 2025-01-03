@@ -31,13 +31,3 @@ export const profileAboutMe = {
   PreferedRole: " Frontend,UI",
   Email: " nurilaydakargi@gmail.com",
 };
-
-export const footerData = {
-  sendme: { en: "Send me a message!", tr: "Bana Ulaşın!" },
-  description: {
-    en: "Got a question or proposal, or just want to say hello? Go ahead.",
-    tr: "Bir sorunuz veya öneriniz mi var, yoksa sadece merhaba mı demek istiyorsunuz? İlerleyin.",
-  },
-  social: [twitter, codepen, atsign, instagram],
-  social_dark: [twitter_dark, codepen_dark, atsign_dark, instagram_dark],
-};

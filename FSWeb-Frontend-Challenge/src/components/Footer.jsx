@@ -16,7 +16,7 @@ const Footer = () => {
     <footer className=" text-[#4731D3] py-6 text-center">
       <h3 className="text-2xl font-bold">Send me a message!</h3>
       <p>Got a question or proposal? Reach out to me at:</p>
-      <p>{profileAboutMe.Email}</p>
+      <p className="underline underline-offset-2">{profileAboutMe.Email}</p>
       <div className="flex justify-center space-x-4 mt-4">
         {FooterIcons.map((footer, index) => (
           <div key={index} className="p-4 bg-transparent rounded">

@@ -23,7 +23,9 @@ const Skills = ({ darkMode }) => {
       className={`${darkMode ? "bg-[#252128] text-white" : "bg-white"} py-10`}
     >
       <div className="max-w-7xl mx-auto">
-        <h3 className="text-3xl font-bold text-left mb-4">Skills</h3>
+        <h3 className="text-[#4832D3] text-3xl font-bold text-left mb-4">
+          Skills
+        </h3>
         <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
           {skills.map((skill, index) => (
             <div key={index} className="p-4 bg-transparent rounded">

@@ -14,9 +14,9 @@ function App() {
         darkMode ? "bg-[#252128] text-white" : "bg-white text-[#252128]"
       } min-h-screen`}
     >
-      <div className="absolute top-4 right-4 flex items-center space-x-4 ">
-        <button className="px-4 py-2 bg-transparent text-CBF281 rounded hover:bg-green-600">
-          Türkçe'ye Geç
+      <div className="absolute top-4 right-1/4 flex items-center space-x-4 ">
+        <button className="px-4 py-2 bg-transparent rounded ">
+          <span className="text-black">TÜRKÇE</span>'YE GEÇ
         </button>
         <button
           onClick={() => setDarkMode(!darkMode)}
