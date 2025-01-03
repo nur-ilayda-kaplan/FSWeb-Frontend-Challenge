@@ -6,14 +6,14 @@ import { profileAboutMe } from "../data/InfoData";
 
 const Header = () => {
   return (
-    <div className="bg-gradient-to-r from-[#4731D3] to-[#CBF281] min-h-screen mx-auto mx-20 p-12 flex flex-col md:flex-row items-center justify-between">
+    <div className=" min-h-screen mx-20 flex flex-col md:flex-row items-center justify-between">
       {/* Sol Bölüm */}
       <div className="flex-1">
-        <h1 className="text-4xl font-bold mb-4">
+        <h1 className="text-5xl font-bold mb-4">
           <span className="text-[#CBF281]">I am a Frontend Developer...</span>
         </h1>
-        <p className="text-lg mb-6">İlayda</p>
-        <p className="text-lg mb-6">{profileAboutMe.HeaderAbout}</p>
+        <p className="text-3xl mb-6">İlayda</p>
+        <p className="text-3xl mb-6">{profileAboutMe.HeaderAbout}</p>
 
         <div className="flex space-x-4">
           <a

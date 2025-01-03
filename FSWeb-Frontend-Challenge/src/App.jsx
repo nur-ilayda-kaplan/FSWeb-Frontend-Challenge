@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
+
   return (
     <div
       className={`${
@@ -19,18 +20,16 @@ function App() {
         </button>
         <button
           onClick={() => setDarkMode(!darkMode)}
-          className="px-4 py-2 bg-gray-300 rounded-3xl hover:bg-gray-400 "
+          className="px-4 py-2 bg-gray-300 rounded-3xl hover:bg-gray-400"
         >
           Dark Mode
         </button>
       </div>
-      <div>
-        <Header />
-        <Skills />
-        <Profile />
-        <Projects />
-        <Footer />
-      </div>
+      <Header darkMode={darkMode} />
+      <Skills darkMode={darkMode} />
+      <Profile darkMode={darkMode} />
+      <Projects darkMode={darkMode} />
+      <Footer darkMode={darkMode} />
     </div>
   );
 }

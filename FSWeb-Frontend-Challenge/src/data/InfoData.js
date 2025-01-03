@@ -1,3 +1,12 @@
+import twitter from "/images/twitter.svg";
+import codepen from "/images/codepen.svg";
+import atsign from "/images/at-sign.svg";
+import instagram from "/images/instagram.svg";
+import twitter_dark from "/images/twitter-dark.svg";
+import codepen_dark from "/images/codepen-dark.svg";
+import atsign_dark from "/images/at-sign-dark.svg";
+import instagram_dark from "/images/instagram-dark.svg";
+
 export const profileAboutMeTr = {
   HeaderAbout:
     "Merhaba ben İlayda. İzmir Katip Çelebi Üniversitesi Elektrik Elektronik Mühendisliği bölümü mezunuyum. Şuan Workintech de full-stack developer programında eğitim görüyorum.",
@@ -21,4 +30,14 @@ export const profileAboutMe = {
     " İzmir Katip Celebi University, Electrical and Electronics Engineering",
   PreferedRole: " Frontend,UI",
   Email: " nurilaydakargi@gmail.com",
+};
+
+export const footerData = {
+  sendme: { en: "Send me a message!", tr: "Bana Ulaşın!" },
+  description: {
+    en: "Got a question or proposal, or just want to say hello? Go ahead.",
+    tr: "Bir sorunuz veya öneriniz mi var, yoksa sadece merhaba mı demek istiyorsunuz? İlerleyin.",
+  },
+  social: [twitter, codepen, atsign, instagram],
+  social_dark: [twitter_dark, codepen_dark, atsign_dark, instagram_dark],
 };

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Projects = () => {
+const Projects = ({ darkMode }) => {
   const projects = [
     {
       name: "Workintech",
@@ -15,12 +15,21 @@ const Projects = () => {
   ];
 
   return (
-    <section className="bg-[#CBF281] py-10">
+    <section
+      className={`${
+        darkMode ? "bg-[#252128] text-white" : "bg-[#CBF281] text-[#252128]"
+      } py-10`}
+    >
       <div className="max-w-7xl mx-auto">
         <h3 className="text-3xl font-bold text-center mb-6">Projects</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project, index) => (
-            <div key={index} className="p-4 bg-white shadow-lg rounded">
+            <div
+              key={index}
+              className={`p-4 rounded shadow-lg ${
+                darkMode ? "bg-[#3B3B3B]" : "bg-white"
+              }`}
+            >
               <h4 className="text-xl font-semibold">{project.name}</h4>
               <p className="mt-2">{project.description}</p>
               <a
